@@ -1,14 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ElectroCalc - Electrical engineering calculators with formulas and step-by-step solutions.">
+    <meta name="description" content="Electrical engineering calculators with formulas and step-by-step solutions.">
+
     <title>ElectroCalc | Electrical Engineering Calculator</title>
 
     <link rel="stylesheet" href="css/style.css">
-
     <script type="module" src="js/main.js"></script>
 </head>
 <body>
@@ -47,15 +46,13 @@
 
                 <div class="hero-stats">
                     <div>
-                        <strong>04</strong>
+                        <strong>05</strong>
                         <span>Calculators</span>
                     </div>
-
                     <div>
                         <strong>01</strong>
                         <span>Simple interface</span>
                     </div>
-
                     <div>
                         <strong>∞</strong>
                         <span>Ways to learn</span>
@@ -63,7 +60,7 @@
                 </div>
             </div>
 
-            <div class="hero-visual" aria-label="Ohm's law formula illustration">
+            <div class="hero-visual">
                 <div class="circuit-decoration circuit-decoration-top"></div>
 
                 <div class="formula-card">
@@ -103,8 +100,7 @@
                     <h2>Electrical calculators</h2>
                     <p>Choose a calculator to solve your next problem.</p>
                 </div>
-
-                <span class="section-count">04 TOOLS</span>
+                <span class="section-count">05 TOOLS</span>
             </div>
 
             <div class="calculator-grid">
@@ -113,12 +109,9 @@
                         <span class="card-icon">Ω</span>
                         <span class="card-number">01</span>
                     </div>
-
                     <h3>Ohm's Law</h3>
                     <p>Calculate voltage, current, or resistance using the two known values.</p>
-
                     <div class="card-formula">V = I × R</div>
-
                     <button class="card-button" type="button" data-calculator="ohms">
                         Open Calculator <span aria-hidden="true">→</span>
                     </button>
@@ -129,12 +122,9 @@
                         <span class="card-icon">⎓</span>
                         <span class="card-number">02</span>
                     </div>
-
                     <h3>Resistors</h3>
-                    <p>Find the equivalent resistance of resistors connected in series or parallel.</p>
-
+                    <p>Find the equivalent resistance of resistors in series or parallel.</p>
                     <div class="card-formula">Series / Parallel</div>
-
                     <button class="card-button" type="button" data-calculator="resistors">
                         Open Calculator <span aria-hidden="true">→</span>
                     </button>
@@ -145,12 +135,9 @@
                         <span class="card-icon">ϟ</span>
                         <span class="card-number">03</span>
                     </div>
-
                     <h3>Electrical Power</h3>
                     <p>Calculate electrical power using voltage, current, and resistance.</p>
-
                     <div class="card-formula">P = V × I</div>
-
                     <button class="card-button" type="button" data-calculator="power">
                         Open Calculator <span aria-hidden="true">→</span>
                     </button>
@@ -161,13 +148,23 @@
                         <span class="card-icon">↗</span>
                         <span class="card-number">04</span>
                     </div>
-
                     <h3>Voltage Divider</h3>
                     <p>Determine the output voltage across a resistor in a series circuit.</p>
-
                     <div class="card-formula">Vout = Vin × R₂ / (R₁ + R₂)</div>
-
                     <button class="card-button" type="button" data-calculator="voltage-divider">
+                        Open Calculator <span aria-hidden="true">→</span>
+                    </button>
+                </article>
+
+                <article class="calculator-card">
+                    <div class="card-top">
+                        <span class="card-icon">⇉</span>
+                        <span class="card-number">05</span>
+                    </div>
+                    <h3>Current Divider</h3>
+                    <p>Find how a total current splits across resistors connected in parallel.</p>
+                    <div class="card-formula">I₁ = I × R₂ / (R₁ + R₂)</div>
+                    <button class="card-button" type="button" data-calculator="current-divider">
                         Open Calculator <span aria-hidden="true">→</span>
                     </button>
                 </article>
@@ -195,7 +192,6 @@
             <span class="logo-icon">E</span>
             <span>Electro<span class="accent">Calc</span></span>
         </a>
-
         <p>Built for learning electrical engineering.</p>
         <span>© <span id="current-year"></span> ElectroCalc</span>
     </footer>
@@ -206,7 +202,6 @@
                 <span class="eyebrow">ELECTROCALC TOOLKIT</span>
                 <h2 id="dialog-title">Calculator</h2>
             </div>
-
             <button class="close-button" id="close-dialog" type="button" aria-label="Close calculator">
                 ×
             </button>
